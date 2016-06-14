@@ -26,7 +26,7 @@ You can download this by:
 
 Angularytics depends on AngularJS.
 
-You need to add the needed Analytics code (Google Analytics) in your app. I though of adding this in the service, but if you just add it in the body, it'd load MUCH faster than if we loaded this in the init. If everybody wants to move this to the service's init, then please submit an issue.
+You need to add the needed Analytics code (Google Analytics) in your app. I thought of adding this in the service, but if you just add it in the body, it'd load MUCH faster than if we loaded this in the init. If everybody wants to move this to the service's init, then please submit an issue.
 
 #Starter Guide
 
@@ -45,7 +45,7 @@ angular.module('sample-app', ['angularytics'])
 ## Tracking Page Views
 This is easy :). You don't need to do anything. By configuring Angularytics with your app like in the step before, all pages will start being tracked.
 
-If you wish to disabled this for whatever reason, you can use:
+If you wish to disable this for whatever reason, you can use:
 
 ```javascript
 .config(function(AngularyticsProvider) {
